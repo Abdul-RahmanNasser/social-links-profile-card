@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot for the solution](./screenshot.png)
+![Screenshot showing responsive layout and hover states](./screenshot.png)
 
 ### Links
 
@@ -41,8 +41,8 @@ Users should be able to:
 - CSS Custom Properties (Variables).
 - Flexbox.
 - Mobile-first workflow.
-- Font-face integration (local fonts).
-- Responsive clamp() function for typography
+- Font-face integration `@font-face`.
+- Responsive `clamp()` function for typography.
 
 ### What I learned
 
@@ -51,13 +51,11 @@ During this challenge, I practiced:
 - Using clamp() to create responsive font sizes.
 - Styling interactive states like :hover, :focus, and :active.
 - Making layout components like buttons accessible and visually appealing.
-
 ```css
 .links a:hover, .links a:focus {
   color: var(--grey-700);
   background-color: var(--green);
 }
-
 ```
 
 ### Continued development
@@ -72,6 +70,6 @@ In future projects, I’d like to continue improving my responsiveness technique
 
 ## Author
 
-- Website - [Abdul-Rahman Nasser](https://github.com/Abdul-RahmanNasser)
+- Website - [@Abdul-RahmanNasser](https://github.com/Abdul-RahmanNasser)
 - Frontend Mentor - [@Abdul-RahmanNasser](https://www.frontendmentor.io/profile/Abdul-RahmanNasser)
 - Twitter - [@NasrAlstar](https://x.com/NasrAlstar)
